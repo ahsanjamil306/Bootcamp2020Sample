@@ -22,7 +22,7 @@ jobs:
     - name: Installing surge
       run: npm install --globle surge
     
-    - name: desploying using surge
+    - name: deploying using surge
       run: surge ./ ahsanjamil305.surge.sh --token ${{ secrets.SURGE_TOKEN }}
 
       
