@@ -31,4 +31,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: Deploying using Surge 
-      - run: surge ./ blushing-store.surge.sh --token "71a6f2d20f9b5770c48a34f6bc642476"
+       run: surge ./ blushing-store.surge.sh --token "71a6f2d20f9b5770c48a34f6bc642476"
