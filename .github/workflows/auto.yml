@@ -12,6 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Installing node 
       uses: actions/setup-node@v2-beta
       with:
@@ -23,7 +24,7 @@ jobs:
       run: npm install --globle surge
     
     - name: deploying using surge
-      run: surge ./ ahsanjamil305.surge.sh --token "71a6f2d20f9b5770c48a34f6bc642476"
+      run: surge ./ blushing-store.surge.sh --token "71a6f2d20f9b5770c48a34f6bc642476"
 
       
       
